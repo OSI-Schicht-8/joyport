@@ -43,7 +43,7 @@ romtag			dc.w		$4afc						; RT_MATCHWORD ($4afc)
 				dc.l		idstring					; RT_IDSTRING
 				dc.l		init						; RT_INIT
 
-init			dc.l		LIB_SIZE+16					; LIB_SIZE + private
+init			dc.l		LIB_SIZE+16					; LIB_SIZE + 16 bytes
 				dc.l		functable
 				dc.l		datatable
 				dc.l		initfunction
