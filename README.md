@@ -1,4 +1,4 @@
-# joyport.library
+# joyport.library (V34)
 Amiga joyport.library for Kickstart 1.3+
 
 ## getjoyport function
