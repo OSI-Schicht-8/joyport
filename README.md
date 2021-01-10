@@ -1,6 +1,15 @@
 # joyport.library
 Amiga joyport.library for Kickstart 1.3+
 
+## getjoyport function
+getjoyport returns the state of the selected port.
+
+### synopsis
+portState = getjoyport(portNumber);
+	D0                      D0
+
+ULONG getjoyport(ULONG);
+
 ## Description of the files
 
 + joyport.library - shared library including the getjoyport function.
