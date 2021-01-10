@@ -14,7 +14,7 @@ Amiga joyport.library for Kickstart 1.3+
 
 ### Return value
 `portState` - bit map that identifies the device and the current state of that device.  
-The output is compatible with the portState of the ReadJoyPort(http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0468.html) function from the lowlevel.library (V40).
+The output is compatible with the portState of the [ReadJoyPort](http://amigadev.elowar.com/read/ADCD_2.1/Includes_and_Autodocs_3._guide/node0468.html) function from the lowlevel.library (V40).
 
 ## Description of the files
 
