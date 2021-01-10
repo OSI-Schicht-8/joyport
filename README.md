@@ -13,10 +13,14 @@ Description of the files:
 Building:
 
 joyport.library was cross compiled with vasm under Windows 10:
+```shell
 vasmm68k_mot -kick1hunks -Fhunkexe -o joyport.library -nosym joyport.library.asm
-(For an instruction how to build vasm on Windows look here: http://eab.abime.net/showthread.php?t=94442)
+```
+For an instruction how to build vasm on Windows look here: http://eab.abime.net/showthread.php?t=94442
 
 
 joyporttest can be compiled using vbcc under AmigaOS:
+```shell
 vc +kick13 -llibrary -o joyporttest joyporttest.c
-("vbcc_bin_amigaos68k.lha" AmigaOS 2.x/3.x 68020+ binaries and "vbcc_target_m68k-kick13.lha" compiler target Amiga Kickstart 1.2/1.3 M680x0 are needed. Both can be obtained here: http://sun.hasenbraten.de/vbcc/index.php?view=main)
+```
+"vbcc_bin_amigaos68k.lha" AmigaOS 2.x/3.x 68020+ binaries and "vbcc_target_m68k-kick13.lha" compiler target Amiga Kickstart 1.2/1.3 M680x0 are needed. Both can be obtained here: http://sun.hasenbraten.de/vbcc/index.php?view=main
