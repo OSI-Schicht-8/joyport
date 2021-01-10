@@ -6,7 +6,7 @@ Amiga joyport.library for Kickstart 1.3+
 
 ### synopsis
 `portState = getjoyport(portNumber);`  
-`	D0                      D0`
+`	D0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0`
 
 `ULONG getjoyport(ULONG);`
 
