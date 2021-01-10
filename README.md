@@ -1,7 +1,7 @@
-# joyport
+# joyport.library
 Amiga joyport.library for Kickstart 1.3+
 
-Description of the files:
+## Description of the files:
 
 + joyport.library - shared library including the getjoyport function.
 + joyport.library.asm - sourcecode in assembly language
@@ -10,7 +10,7 @@ Description of the files:
 + joyport_stubs.asm - sourcecode of stubs part
 + joyporttest.c - C example showing the usage of the joyport.library
 
-Building:
+## Building
 
 joyport.library was cross compiled with vasm under Windows 10:
 ```shell
