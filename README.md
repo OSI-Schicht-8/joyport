@@ -10,10 +10,10 @@ Amiga joyport.library for Kickstart 1.3+
 `ULONG getjoyport(ULONG);`
 
 ### Input
-portNumber - selected gameport (0 or 1)
+`portNumber` - selected gameport (0 or 1)
 
 ### Return value
-portState - bit map that identifies the device and the current state of that device.
+`portState` - bit map that identifies the device and the current state of that device.
 
 ## Description of the files
 
