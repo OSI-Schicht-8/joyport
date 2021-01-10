@@ -3,7 +3,7 @@ Amiga joyport.library for Kickstart 1.3+
 
 Description of the files:
 
-joyport.library - shared library including the getjoyport function
+joyport.library - shared library including the getjoyport function.
 joyport.library.asm - sourcecode in assembly language
 joyport.lib - static linker library with stubs and LVO (Library Vector Offsets)
 joyport_lvos.asm - sourcecode of LVO part
