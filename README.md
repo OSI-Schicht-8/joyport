@@ -16,7 +16,7 @@ joyport.library was cross compiled with vasm under Windows 10:
 ```shell
 vasmm68k_mot -kick1hunks -Fhunkexe -o joyport.library -nosym joyport.library.asm
 ```
-For an instruction how to build vasm on Windows look here: <a href="http://eab.abime.net/showthread.php?t=94442" target="_blank">http://eab.abime.net/showthread.php?t=94442</a>
+For an instruction how to build vasm on Windows look here: <a href="http://eab.abime.net/showthread.php?t=94442" target="_blank">building vasm</a>
 
 
 joyporttest can be compiled using vbcc under AmigaOS:
