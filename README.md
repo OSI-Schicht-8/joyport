@@ -5,8 +5,7 @@ Amiga joyport.library for Kickstart 1.3+
 `getjoyport` returns the state of the selected port.
 
 ### synopsis
-`portState = getjoyport(portNumber);`  
-`	D0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D0`
+`portState [D0] = getjoyport(portNumber [D0]);`  
 
 `ULONG getjoyport(ULONG);`
 
