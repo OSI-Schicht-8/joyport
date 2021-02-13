@@ -110,7 +110,7 @@ kick			movem.l		a5-a6,-(sp)
 			movea.l		(a6)+,a0
 			movea.l		(a6),a6
 			move.l		a0,(a6)
-			move.l		a6,(a0)
+			move.l		a6,4(a0)
 			movea.l		a5,a1
 			moveq		#0,d0
 			move.w		LIB_NEGSIZE(a5),d0
